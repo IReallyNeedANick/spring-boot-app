@@ -1,0 +1,14 @@
+<department>
+  <employee>
+    <id1>1</id1>
+    <id2>STRING</id2>
+    <manager>
+      <fk1>1</fk1>
+      <fk2>STRING</fk2>
+    </manager>
+    <team-member>
+      <fk1>1</fk1>
+      <fk2>STRING</fk2>
+    </team-member>
+  </employee>
+</department>

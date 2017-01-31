@@ -1,0 +1,30 @@
+<department>
+    <employee>
+        <id1>1</id1>
+        <id2>A</id2>
+        <team-member>
+            <fk1>2</fk1>
+            <fk2>B</fk2>
+        </team-member>
+        <team-member>
+            <fk1>3</fk1>
+            <fk2>C</fk2>
+        </team-member>
+    </employee>
+    <employee>
+        <id1>2</id1>
+        <id2>B</id2>
+        <manager>
+            <fk1>1</fk1>
+            <fk2>A</fk2>
+        </manager>
+    </employee>
+    <employee>
+        <id1>3</id1>
+        <id2>C</id2>
+        <manager>
+            <fk1>1</fk1>
+            <fk2>A</fk2>
+        </manager>
+    </employee>
+</department>
