@@ -1,5 +1,7 @@
 package com.sbapp;
 
+import java.util.ArrayList;
+
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.SpringBootConfiguration;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
@@ -29,7 +31,6 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 		"com.sbapp.logic",
 		"com.sbapp.dao"
 })
-
 public class Application {
 	public static void main(String[] args) {
 		SpringApplication.run(Application.class, args);
@@ -55,7 +56,8 @@ public class Application {
 				"free to use, free to reproduce",
 				new Contact("boris", "www.github.com", "boris.marn@gmail.com"),
 				null,
-				null);
+				null,
+				new ArrayList<>());
 	}
 
 }
